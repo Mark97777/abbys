@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Example</title>
+  <style>
+    body {
+      background: url('images/ATS9.jpg') no-repeat center center fixed; 
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .glassmorphism-container {
+      background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+      border-radius: 15px; /* Rounded corners */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      backdrop-filter: blur(10px); /* Background blur */
+      -webkit-backdrop-filter: blur(10px); /* Safari support */
+      border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for contrast */
+      padding: 20px; /* Padding inside the container */
+      margin: 20px; /* Margin outside the container */
+      color: #fff; /* Text color */
+      text-align: center; /* Centered text */
+    }
+  </style>
+</head>
+<body>
+  <div class="glassmorphism-container">
+    <h1>Glassmorphism Effect</h1>
+    <p>This is a container with a glassmorphism effect.</p>
+  </div>
+</body>
+</html>
